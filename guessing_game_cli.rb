@@ -59,11 +59,11 @@ end
 #   end
 # end
 
-def user_input
-  input = gets.chomp
-  return input
-
-end
+# def user_input
+#   input = gets.chomp
+#   return input
+#
+# end
 
 def run_guessing_game
   binding.pry
