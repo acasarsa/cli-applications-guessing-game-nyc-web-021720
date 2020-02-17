@@ -65,11 +65,11 @@ def run_guessing_game
   prompt_user
 
   input = gets.chomp
-  input.to_i
+  input
   # console.log(input)
 
 
-  if input == rand_num
+  if input.to_i == rand_num
     puts "You guessed the correct number!"
 
   elsif input == "exit"
