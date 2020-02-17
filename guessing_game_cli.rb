@@ -68,8 +68,8 @@ def run_guessing_game
   # console.log(input)
 
 
-  if input == rand_num.to_s
-    "You guessed the correct number!"
+  if input == rand_num
+    puts "You guessed the correct number!"
 
   elsif input == "exit"
     "Goodbye!"
