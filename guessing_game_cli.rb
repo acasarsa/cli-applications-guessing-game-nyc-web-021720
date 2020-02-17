@@ -71,10 +71,10 @@ def run_guessing_game
    if input = rand_num
     puts "You guessed the correct number!"
 
-  # elsif input == "exit"
-  #   puts "Goodbye!"
-  #
-  # else
-  #   puts "Sorry! The computer guessed #{rand_num}."
+  elsif input == "exit"
+    puts "Goodbye!"
+
+  else
+    puts "Sorry! The computer guessed #{rand_num}."
   end
 end
