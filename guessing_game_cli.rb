@@ -75,8 +75,6 @@ def run_guessing_game
 
 
   if input.to_i == rand_num
-    input = gets.chomp
-
     puts "You guessed the correct number!"
 
   elsif input == "exit"
