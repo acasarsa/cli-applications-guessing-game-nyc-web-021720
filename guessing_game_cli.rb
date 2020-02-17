@@ -60,7 +60,7 @@ end
 # end
 
 
-def run_guessing_game(num)
+def run_guessing_game
   rand_num = rand(1..6)
   prompt_user
 
