@@ -69,7 +69,6 @@ def run_guessing_game
 
 
    if input == rand_num
-     binding.pry
     puts "You guessed the correct number!"
 
   elsif input == "exit"
