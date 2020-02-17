@@ -60,19 +60,19 @@ end
 # end
 
 
-# def run_guessing_game
-#
-#   prompt_user
-#   rand_num = rand(1..6)
-#   input = gets.chomp
-#
-#    if input == rand_num
-#     puts "You guessed the correct number!"
-#
-#   elsif input == "exit"
-#     puts "Goodbye!"
-#
-#   else
-#     puts "Sorry! The computer guessed #{rand_num}."
-#   end
-# end
+def run_guessing_game(num)
+
+  prompt_user
+  rand_num = rand(1..6)
+  input = gets.chomp
+
+   if input == rand_num
+    puts "You guessed the correct number!"
+
+  elsif input == "exit"
+    puts "Goodbye!"
+
+  else
+    puts "Sorry! The computer guessed #{rand_num}."
+  end
+end
