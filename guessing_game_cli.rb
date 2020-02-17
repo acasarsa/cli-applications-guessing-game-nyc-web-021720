@@ -22,7 +22,7 @@ def get_user_input
 end
 
 def num_compare(num)
-  rand_num = num_generator
+  # rand_num = num_generator
   input = get_user_input
 
   if input == rand_num
