@@ -65,7 +65,7 @@ def run_guessing_game
   prompt_user
 
   input = gets.chomp
-  # console.log(input)
+  console.log(input)
 
 
    if input == rand_num
