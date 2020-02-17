@@ -65,7 +65,7 @@ def run_guessing_game
   prompt_user
 
   input = gets.chomp
-  input.to_s
+  input.to_i
   # console.log(input)
 
 
