@@ -15,8 +15,6 @@ def num_generator
   rand(1..6)
 end
 
-
-
 def get_user_input
   gets.chomp
 end
