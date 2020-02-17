@@ -65,6 +65,7 @@ def run_guessing_game
   prompt_user
 
   input = gets.chomp
+  console.log(input)
 
 
    if input == rand_num
@@ -76,5 +77,4 @@ def run_guessing_game
   else
     puts "Sorry! The computer guessed #{rand_num}."
   end
-  console.log(input)
 end
