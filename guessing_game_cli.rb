@@ -67,13 +67,13 @@ def run_guessing_game
   input = gets.chomp
   console.log(input)
 
-   if input == num
+   if input == rand_num
     puts "You guessed the correct number!"
 
   elsif input == "exit"
     puts "Goodbye!"
 
   else
-    puts "Sorry! The computer guessed #{num}."
+    puts "Sorry! The computer guessed #{rand_num}."
   end
 end
