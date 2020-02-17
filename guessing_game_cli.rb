@@ -61,7 +61,7 @@ end
 
 def user_input
   input = gets.chomp
-  input
+  return input
 
 end
 
