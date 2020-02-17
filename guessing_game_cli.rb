@@ -36,7 +36,7 @@ end
 
 def run_guessing_game(num)
   prompt_user
-  num_compare(num)
+  num_compare
 end
 
 # def run_guessing_game
