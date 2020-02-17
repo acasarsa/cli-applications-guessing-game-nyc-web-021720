@@ -61,9 +61,9 @@ end
 
 
 def run_guessing_game(num)
-
+  rand_num = rand(1..6)
   prompt_user
-  # rand_num = rand(1..6)
+
   input = gets.chomp
 
    if input == num
