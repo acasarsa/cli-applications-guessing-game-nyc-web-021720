@@ -31,7 +31,6 @@ def num_compare
     puts "Goodbye!"
   else
     puts "Sorry! The computer guessed #{rand_num}."
-    binding.pry
   end
 end
 
