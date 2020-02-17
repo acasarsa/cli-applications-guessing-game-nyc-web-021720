@@ -65,6 +65,7 @@ def run_guessing_game(num)
   prompt_user
 
   input = gets.chomp
+  console.log(input)
 
    if input == num
     puts "You guessed the correct number!"
