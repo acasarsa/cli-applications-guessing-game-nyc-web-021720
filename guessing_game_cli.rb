@@ -59,6 +59,11 @@ end
 #   end
 # end
 
+def user_input
+  input = gets.chomp
+  input
+
+end
 
 def run_guessing_game
   rand_num = rand(1..6)
