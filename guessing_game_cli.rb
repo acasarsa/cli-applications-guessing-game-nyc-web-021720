@@ -78,3 +78,5 @@ def run_guessing_game
     "Sorry! The computer guessed #{rand_num}."
   end
 end
+
+# ruby bin/guessing_game_cli
