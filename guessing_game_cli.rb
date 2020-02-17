@@ -21,7 +21,7 @@ def get_user_input
   gets.chomp
 end
 
-def num_compare
+def num_compare()
   rand_num = num_generator
   input = get_user_input
 
