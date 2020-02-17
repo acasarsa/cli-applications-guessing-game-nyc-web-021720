@@ -66,11 +66,12 @@ def user_input
 end
 
 def run_guessing_game
+  binding.pry
+
   rand_num = rand(1..6)
   prompt_user
 
   input = gets.chomp
-binding.pry
   # console.log(input)
 
 
