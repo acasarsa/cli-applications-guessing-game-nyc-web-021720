@@ -66,7 +66,6 @@ end
 # end
 
 def run_guessing_game
-  binding.pry
 
   rand_num = rand(1..6)
   prompt_user
