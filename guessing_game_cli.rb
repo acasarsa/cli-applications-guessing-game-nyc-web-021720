@@ -64,7 +64,7 @@ def run_guessing_game
   rand_num = rand(1..6)
   prompt_user
 
-  input.to_stdout = gets.chomp
+  input = gets.chomp.to_stdout
   # console.log(input)
 
 
